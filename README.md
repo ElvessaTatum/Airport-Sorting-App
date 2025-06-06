@@ -21,27 +21,10 @@ Modular Design - Clean separation of concerns across components
 # Setup
 
 1. Clone or download the project files
-2. Ensure proper directory structure:
-project/
-├── src/
-│   ├── airport.py
-│   ├── airports_data.py
-│   ├── fetch_criteria.py
-│   ├── process_airports.py
-│   ├── process_airports_UI.py
-│   └── sort_criteria/
-│       ├── criteria_for_sort_city.py
-│       ├── criteria_for_sort_city_and_name.py
-│       ├── criteria_for_sort_delay.py
-│       ├── criteria_for_sort_iata.py
-│       ├── criteria_for_sort_name.py
-│       ├── criteria_for_sort_state.py
-│       └── criteria_for_sort_temperature.py
-
+2. Ensure proper directory structure
 3. Navigate to the project directory
-4. Run the application:
-    bashpython src/process_airports_UI.py
-
+4. Run the application
+   
 # Design Overview
 Core Data Models – airport.py & airports_data.py
 
